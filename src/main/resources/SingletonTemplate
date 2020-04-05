@@ -1,0 +1,15 @@
+
+public final class #NameSingleton# {
+    private static volatile #NameSingleton# instance = null;
+
+    public static #NameSingleton# getInstance(){
+    if(instance == null){
+        synchronized(Singleton.class){
+            if(instance == null){
+            instance = new #NameSingleton#();
+            }
+        }
+        return instance;
+    }
+    private #NameSingleton#(){}
+}
