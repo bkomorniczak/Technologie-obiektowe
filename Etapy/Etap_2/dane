@@ -1,0 +1,13 @@
+Został stworzony projekt, klasa Singleton i SingletonGenerator. Kod służący do otwierania plików powinien zostać przeniesiony w przyszłości do IOService,
+żeby nie powtarzać tego samego kodu przy każdym otwieraniu każdego szablonu wzorca. W przyszłym tygodniu przetestuję pierwszy wzorzec, poprawię (przeniosę kod otwierania pliku)
+i opracuję wzorce Fabryka i Builder.
+
+Statystyka:
+Rozszerzenie    Ilość   Rozmiar Ilość Linijek
+bat             1       3kB     103
+gradle          2       <1kB    33
+java            7       2kB     111
+md              1       <1kB    13
+properties      2       <1kB    6
+
+Total           13      6kB     266
